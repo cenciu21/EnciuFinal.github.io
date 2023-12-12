@@ -168,3 +168,29 @@ footer {
 }
 
 /* ---- ---- ---- ---- ---- ---- ---- */
+
+/* Media Styles */
+
+@media screen and (max-width: 480px){
+    header{
+        display: none;
+    }
+
+    .pic_container img{
+        max-width: 60%;
+    }
+
+    .table{
+        max-width: 80%;
+    }
+    #projects{
+        align-items: center;
+    }
+    .demo{
+        display: none;
+    }
+
+    footer{
+        width: 100%vw;
+    }
+}
